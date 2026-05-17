@@ -30,6 +30,7 @@ body{
     right:-200px;
     z-index:-1;
     pointer-events:none;
+    animation:pulseGlow 8s ease-in-out infinite;
 }
 
 /* NAVBAR */
@@ -52,6 +53,11 @@ body{
     font-family:'Cormorant Garamond', serif;
     font-size:2rem;
     color:#d4af37;
+    transition:0.4s;
+}
+
+.logo:hover{
+    text-shadow:0 0 20px rgba(212,175,55,0.6);
 }
 
 nav{
@@ -70,7 +76,7 @@ nav a:hover{
     color:#fff;
 }
 
-/* HERO (🔥 JAVÍTVA) */
+/* HERO */
 .hero{
     min-height:60vh;
     display:flex;
@@ -90,11 +96,31 @@ nav a:hover{
     color:#d4af37;
     letter-spacing:0.05em;
     margin-bottom:20px;
+    text-shadow:0 0 25px rgba(212,175,55,0.25);
+    animation:luxFloat 6s ease-in-out infinite;
+    position:relative;
+}
+
+/* SHIMMER */
+.hero h1::after{
+    content:'';
+    position:absolute;
+    top:0;
+    left:-100%;
+    width:100%;
+    height:100%;
+    background:linear-gradient(
+        120deg,
+        transparent,
+        rgba(255,255,255,0.25),
+        transparent
+    );
+    animation:shine 5s infinite;
 }
 
 .hero p{
     color:#b5b5b5;
-    line-height:1.9;
+    line-height:2;
     font-size:1rem;
 }
 
@@ -117,12 +143,15 @@ main{
     border-radius:32px;
     padding:55px;
     backdrop-filter:blur(14px);
-    transition:0.4s;
+    transition:all 0.5s ease;
 }
 
 .glass-card:hover{
-    transform:translateY(-4px);
-    border-color:rgba(212,175,55,0.3);
+    transform:translateY(-8px) scale(1.01);
+    border-color:rgba(212,175,55,0.35);
+    box-shadow:
+        0 20px 60px rgba(0,0,0,0.6),
+        0 0 30px rgba(212,175,55,0.08);
 }
 
 /* SECTION TITLE */
@@ -140,6 +169,7 @@ main{
     letter-spacing:0.3em;
     margin-bottom:14px;
     text-transform:uppercase;
+    animation:fadeSlide 1s ease forwards;
 }
 
 /* TITLE */
@@ -150,21 +180,20 @@ main{
     margin-bottom:14px;
 }
 
-/* 🔥 SZÖVEG LEVEGŐS */
+/* TEXT */
 .principle-item p{
     color:#b5b5b5;
     line-height:2.05;
     font-size:1rem;
 }
 
-/* ÁLTALÁNOS SZÖVEG */
 .glass-card p{
     line-height:2.05;
     font-size:1rem;
     color:#b5b5b5;
 }
 
-/* FOOTER (🔥 SZEBB) */
+/* FOOTER */
 footer{
     border-top:1px solid rgba(255,255,255,0.08);
     padding:80px 20px 50px;
@@ -211,6 +240,36 @@ footer p{
     line-height:1.8;
 }
 
+/* ===== ANIMÁCIÓK ===== */
+
+@keyframes luxFloat{
+    0%{ transform:translateY(0); }
+    50%{ transform:translateY(-8px); }
+    100%{ transform:translateY(0); }
+}
+
+@keyframes shine{
+    0%{ left:-100%; }
+    100%{ left:120%; }
+}
+
+@keyframes fadeSlide{
+    from{
+        opacity:0;
+        transform:translateY(10px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+
+@keyframes pulseGlow{
+    0%{ opacity:0.4; transform:scale(1); }
+    50%{ opacity:0.7; transform:scale(1.1); }
+    100%{ opacity:0.4; transform:scale(1); }
+}
+
 /* MOBILE */
 @media(max-width:768px){
 
@@ -238,4 +297,4 @@ footer p{
         flex-direction:column;
         gap:12px;
     }
-    }
+        }
