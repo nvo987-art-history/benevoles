@@ -20,7 +20,7 @@ body{
     text-rendering:optimizeLegibility;
 }
 
-/* BACKGROUND (STABIL) */
+/* BACKGROUND */
 .background-glow{
     position:fixed;
     width:700px;
@@ -30,10 +30,8 @@ body{
     right:-200px;
     z-index:-1;
     pointer-events:none;
-
     opacity:0.4;
     animation:glowFade 10s ease-in-out infinite;
-    will-change:opacity;
 }
 
 /* NAVBAR */
@@ -52,17 +50,20 @@ body{
     z-index:1000;
 }
 
+/* 🔥 LOGO FIX – NINCS MOZGÁS */
 .logo{
     font-family:'Cormorant Garamond', serif;
     font-size:2rem;
     color:#d4af37;
-    transition:0.3s;
+    transform:none !important;
+    animation:none !important;
 }
 
 .logo:hover{
     text-shadow:0 0 20px rgba(212,175,55,0.6);
 }
 
+/* NAV */
 nav{
     display:flex;
     gap:28px;
@@ -99,14 +100,11 @@ nav a:hover{
     color:#d4af37;
     letter-spacing:0.05em;
     margin-bottom:20px;
-
     text-shadow:0 0 25px rgba(212,175,55,0.25);
-
     animation:luxFloat 6s ease-in-out infinite;
-    will-change:transform;
 }
 
-/* SHIMMER (STABIL – NEM MOZGAT LAYOUTOT) */
+/* SHIMMER */
 .hero h1::after{
     content:'';
     position:absolute;
@@ -120,7 +118,6 @@ nav a:hover{
     transform:translateX(-120%);
     animation:shine 5s linear infinite;
     pointer-events:none;
-    will-change:transform;
 }
 
 .hero p{
@@ -148,9 +145,7 @@ main{
     border-radius:32px;
     padding:55px;
     backdrop-filter:blur(14px);
-
     transition:transform 0.35s ease, box-shadow 0.35s ease, border 0.35s ease;
-    will-change:transform;
 }
 
 .glass-card:hover{
@@ -239,8 +234,7 @@ footer p{
     line-height:1.8;
 }
 
-/* ===== ANIMÁCIÓK (STABIL) ===== */
-
+/* ANIMÁCIÓK */
 @keyframes luxFloat{
     0%{ transform:translateY(0); }
     50%{ transform:translateY(-3px); }
