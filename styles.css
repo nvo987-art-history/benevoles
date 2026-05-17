@@ -50,17 +50,13 @@ body{
     z-index:1000;
 }
 
-/* 🔥 LOGO FIX – NINCS MOZGÁS */
+/* LOGO FIX */
 .logo{
     font-family:'Cormorant Garamond', serif;
     font-size:2rem;
     color:#d4af37;
     transform:none !important;
     animation:none !important;
-}
-
-.logo:hover{
-    text-shadow:0 0 20px rgba(212,175,55,0.6);
 }
 
 /* NAV */
@@ -94,6 +90,7 @@ nav a:hover{
     max-width:800px;
 }
 
+/* 🔥 STABIL CÍM (NINCS UGRÁLÁS) */
 .hero h1{
     font-family:'Cormorant Garamond', serif;
     font-size:clamp(2.8rem, 6vw, 4.5rem);
@@ -101,25 +98,33 @@ nav a:hover{
     letter-spacing:0.05em;
     margin-bottom:20px;
     text-shadow:0 0 25px rgba(212,175,55,0.25);
+
+    display:inline-block;
+    position:relative;
+    overflow:hidden;
+
     animation:luxFloat 6s ease-in-out infinite;
 }
 
-/* SHIMMER */
+/* SHIMMER FIX */
 .hero h1::after{
     content:'';
     position:absolute;
-    inset:0;
+    top:0;
+    left:-120%;
+    width:120%;
+    height:100%;
     background:linear-gradient(
         120deg,
         transparent,
-        rgba(255,255,255,0.18),
+        rgba(255,255,255,0.15),
         transparent
     );
-    transform:translateX(-120%);
     animation:shine 5s linear infinite;
     pointer-events:none;
 }
 
+/* TEXT */
 .hero p{
     color:#b5b5b5;
     line-height:2;
@@ -242,8 +247,8 @@ footer p{
 }
 
 @keyframes shine{
-    0%{ transform:translateX(-120%); }
-    100%{ transform:translateX(120%); }
+    0%{ left:-120%; }
+    100%{ left:120%; }
 }
 
 @keyframes glowFade{
@@ -279,4 +284,4 @@ footer p{
         flex-direction:column;
         gap:12px;
     }
-}
+    }
