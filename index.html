@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -9,111 +8,63 @@
 
 <link rel="stylesheet" href="styles.css">
 
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
-
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Cormorant+Garamond:wght@500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<div class="background-glow"></div>
-
-<!-- NAV -->
-<header class="navbar">
-  <div class="nav-inner">
-    <div class="logo">NVO987 - Culture Visuelle Moderne et Contemporaine</div>
-  </div>
+<header>
+  <h1>NVO987 – Culture Visuelle Moderne et Contemporaine</h1>
 </header>
 
-<!-- HERO (KISEBB, NEM ÜRES) -->
-<section class="hero" style="padding:120px 20px 60px;">
-
-  <div class="hero-content" style="max-width:700px;">
-
-    <h1>Bénévoles</h1>
-
-    <p style="margin-top:15px;">
-      Plateforme de collaboration en culture visuelle contemporaine
-    </p>
-
-    <div class="hero-buttons" style="margin-top:25px;">
-      <a href="#recrutement" class="btn primary">Rejoindre</a>
-    </div>
-
-  </div>
-
+<section class="hero">
+  <h2>Bénévoles</h2>
+  <p>Plateforme de collaboration en culture visuelle contemporaine</p>
+  <a href="#recrutement" class="btn">Rejoindre</a>
 </section>
 
-<!-- MAIN -->
-<main style="padding:20px; margin-top:20px;">
+<section id="recrutement" class="card reveal">
+  <h3>Recrutement</h3>
 
-  <!-- RECRUTEMENT -->
-  <section id="recrutement" class="glass-card reveal" style="margin-top:20px;">
+  <strong>Nous recherchons un pédagogue bénévole</strong>
 
-    <div class="card-top"></div>
+  <p>
+  Notre association, engagée dans le domaine de la culture visuelle contemporaine,
+  développe des projets de recherche et de transmission à la croisée des pratiques
+  artistiques, de l’analyse des images et des dynamiques culturelles actuelles.
+  </p>
 
-    <h2>Recrutement</h2>
+  <p>
+  Dans ce cadre, nous recherchons un pédagogue bénévole souhaitant s’impliquer dans
+  une collaboration intellectuelle et créative. La mission consiste à participer à
+  la réflexion pédagogique, à contribuer à la création de contenus éducatifs, et à
+  accompagner le développement de projets interdisciplinaires.
+  </p>
 
-    <p style="margin-top:20px;">
-      <strong>Nous recherchons un pédagogue bénévole</strong>
-    </p>
+  <p>
+  Nous recherchons une personne ayant un intérêt réel pour l’art contemporain,
+  une sensibilité à la transmission des connaissances, ainsi qu’une capacité
+  d’autonomie et d’engagement dans un environnement collaboratif.
+  </p>
 
-    <p style="margin-top:15px; line-height:1.8; color:#b5b5b5;">
-      Notre association, engagée dans le domaine de la culture visuelle contemporaine,
-      développe des projets de recherche et de transmission à la croisée des pratiques
-      artistiques, de l’analyse des images et des dynamiques culturelles actuelles.
-    </p>
+  <p>
+  Le bénévolat repose sur une participation libre et flexible, adaptée aux
+  disponibilités de chacun, dans un esprit d’échange et de construction collective.
+  </p>
 
-    <p style="margin-top:15px; line-height:1.8; color:#b5b5b5;">
-      Dans ce cadre, nous recherchons un pédagogue bénévole souhaitant s’impliquer
-      dans une collaboration intellectuelle et créative. La mission consiste à
-      participer à la réflexion pédagogique, à contribuer à la création de contenus
-      éducatifs, et à accompagner le développement de projets interdisciplinaires
-      liés à la culture visuelle contemporaine.
-    </p>
+  <a href="mailto:contact@nvo987.fr" class="btn">Candidater</a>
+</section>
 
-    <p style="margin-top:15px; line-height:1.8; color:#b5b5b5;">
-      Nous recherchons une personne ayant un intérêt réel pour l’art contemporain,
-      une sensibilité à la transmission des connaissances, ainsi qu’une capacité
-      d’autonomie et d’engagement dans un environnement de recherche collaboratif.
-    </p>
+<footer>
+  <h3>NVO987</h3>
+  <p>Culture Visuelle Moderne et Contemporaine</p>
 
-    <p style="margin-top:15px; line-height:1.8; color:#b5b5b5;">
-      Le bénévolat repose sur une participation libre et flexible, adaptée aux
-      disponibilités de chacun, dans un esprit d’échange, de rigueur et de
-      construction collective.
-    </p>
+  <a href="https://www.nvo987.fr" target="_blank">www.nvo987.fr</a>
+  <a href="mailto:contact@nvo987.fr">contact@nvo987.fr</a>
 
-    <a href="mailto:contact@nvo987.fr" class="btn primary" style="margin-top:25px;">
-      Candidater
-    </a>
-
-  </section>
-
-</main>
-
-<!-- FOOTER -->
-<footer style="margin-top:60px; padding:40px 20px;">
-
-  <div class="footer-inner">
-
-    <h3>NVO987</h3>
-
-    <p>Culture Visuelle Moderne et Contemporaine</p>
-
-    <div class="footer-links" style="margin-top:15px;">
-      <a href="https://www.nvo987.fr" target="_blank">www.nvo987.fr</a><br>
-      <a href="mailto:contact@nvo987.fr">contact@nvo987.fr</a>
-    </div>
-
-    <p style="margin-top:20px;">
-      © 2026 NVO987
-    </p>
-
-  </div>
-
+  <p>© 2026 NVO987</p>
 </footer>
 
-<!-- ANIM -->
 <script>
 const reveals = document.querySelectorAll('.reveal');
 
@@ -123,7 +74,7 @@ const observer = new IntersectionObserver(entries => {
       entry.target.classList.add('active');
     }
   });
-}, { threshold: 0.15 });
+}, { threshold: 0.2 });
 
 reveals.forEach(el => observer.observe(el));
 </script>
