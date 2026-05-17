@@ -38,7 +38,7 @@ body{
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:30px 7%;
+    padding:28px 7%;
     position:fixed;
     top:0;
     left:0;
@@ -56,7 +56,7 @@ body{
 
 nav{
     display:flex;
-    gap:30px;
+    gap:28px;
 }
 
 nav a{
@@ -64,30 +64,20 @@ nav a{
     text-decoration:none;
     font-size:0.9rem;
     transition:0.3s;
-    position:relative;
 }
 
 nav a:hover{
     color:#fff;
 }
 
-/* HERO */
-.hero{
-    min-height:85vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-    padding:140px 7% 80px;
-}
-
-.hero-content{
-    max-width:900px;
-}
-
-.hero-label{
+/* HERO TITLE (🔥 EZT KÉRTED) */
+.hero h1{
+    font-family:'Cormorant Garamond', serif;
+    font-size:clamp(2.8rem, 6vw, 4.5rem);
     color:#d4af37;
-    letter-spacing:0.25em;
-    font-size:0.75rem;
+    letter-spacing:0.04em;
+    text-align:center;
+    margin-bottom:40px;
 }
 
 /* MAIN */
@@ -97,8 +87,9 @@ main{
     margin:auto;
     display:flex;
     flex-direction:column;
-    gap:40px;
-    padding-bottom:60px;
+    gap:50px;
+    padding-top:120px;
+    padding-bottom:80px;
 }
 
 /* CARD */
@@ -106,8 +97,8 @@ main{
     position:relative;
     background:rgba(255,255,255,0.03);
     border:1px solid rgba(255,255,255,0.08);
-    border-radius:30px;
-    padding:50px;
+    border-radius:32px;
+    padding:55px;
     backdrop-filter:blur(14px);
     transition:0.4s;
 }
@@ -117,43 +108,52 @@ main{
     border-color:rgba(212,175,55,0.3);
 }
 
-/* TITLE */
+/* SECTION TITLES */
 .glass-card h2{
     font-family:'Cormorant Garamond', serif;
-    font-size:2.8rem;
-    margin-bottom:20px;
+    font-size:2.6rem;
+    margin-bottom:25px;
+    letter-spacing:0.02em;
 }
 
-/* 🔥 EZ VOLT A HIBA */
+/* 🔥 SÁRGA LABEL */
 .principle-item span{
     display:block;
     color:#d4af37;
     font-size:0.75rem;
-    letter-spacing:0.25em;
-    margin-bottom:12px;
+    letter-spacing:0.3em;
+    margin-bottom:14px;
     text-transform:uppercase;
 }
 
-/* FIX TITLE */
+/* CÍM */
 .principle-item h3{
-    font-size:1.4rem;
+    font-size:1.45rem;
     font-weight:600;
-    line-height:1.4;
-    margin-bottom:12px;
+    line-height:1.5;
+    margin-bottom:14px;
 }
 
-/* TEXT */
+/* 🔥 SZÖVEG LEVEGŐSÍTÉS */
 .principle-item p{
     color:#b5b5b5;
-    line-height:1.9;
-    font-size:0.95rem;
+    line-height:2.05;        /* EZ ADJA A LEVEGŐT */
+    font-size:1rem;
+    letter-spacing:0.01em;
 }
 
-/* FOOTER */
+/* ÁLTALÁNOS PARAGRAPH */
+.glass-card p{
+    line-height:2.05;
+    font-size:1rem;
+    color:#b5b5b5;
+}
+
+/* FOOTER (🔥 TELJESEN ÚJ DESIGN) */
 footer{
     border-top:1px solid rgba(255,255,255,0.08);
-    padding:70px 20px 40px;
-    background:rgba(255,255,255,0.01);
+    padding:80px 20px 50px;
+    background:linear-gradient(to top, rgba(255,255,255,0.02), transparent);
 }
 
 .footer-inner{
@@ -166,8 +166,9 @@ footer{
 .footer-inner h3{
     font-family:'Cormorant Garamond', serif;
     color:#d4af37;
-    font-size:2.2rem;
-    margin-bottom:25px;
+    font-size:2.4rem;
+    margin-bottom:30px;
+    letter-spacing:0.05em;
 }
 
 /* LINKS */
@@ -175,15 +176,16 @@ footer{
     display:flex;
     justify-content:center;
     flex-wrap:wrap;
-    gap:15px 25px;
-    margin-bottom:25px;
+    gap:18px 30px;
+    margin-bottom:30px;
 }
 
 .footer-links a{
-    color:#a8a8a8;
+    color:#9c9c9c;
     text-decoration:none;
     font-size:0.9rem;
     transition:0.3s;
+    letter-spacing:0.03em;
 }
 
 .footer-links a:hover{
@@ -194,17 +196,27 @@ footer{
 footer p{
     color:#666;
     font-size:0.8rem;
+    margin-top:10px;
+    line-height:1.8;
 }
 
 /* MOBILE */
 @media(max-width:768px){
 
+    main{
+        gap:35px;
+    }
+
     .glass-card{
-        padding:35px 20px;
+        padding:35px 22px;
     }
 
     .glass-card h2{
-        font-size:2.2rem;
+        font-size:2.1rem;
+    }
+
+    .hero h1{
+        font-size:2.4rem;
     }
 
     .principle-item h3{
@@ -213,7 +225,6 @@ footer p{
 
     .footer-links{
         flex-direction:column;
-        gap:10px;
+        gap:12px;
     }
-
 }
