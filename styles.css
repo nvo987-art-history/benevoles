@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #eaeaea;
+  font-family: 'Inter', sans-serif;
+}
+
+/* NAV */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 40px;
+  position: sticky;
+  top: 0;
+  background: #000;
+}
+
+.logo {
+  font-family: 'Cormorant Garamond';
+  font-size: 22px;
+  color: #c9a84f;
+}
+
+nav a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #888;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+/* HERO */
+.hero {
+  text-align: center;
+  padding: 140px 20px 100px;
+}
+
+.hero h1 {
+  font-family: 'Cormorant Garamond';
+  font-size: 64px;
+  color: #c9a84f;
+}
+
+.hero p {
+  margin: 20px 0;
+  color: #aaa;
+}
+
+/* BUTTON */
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 28px;
+  border: 1px solid #444;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #fff;
+  color: #000;
+}
+
+.btn.gold {
+  background: #c9a84f;
+  color: #000;
+  border: none;
+}
+
+/* SECTIONS */
+.section {
+  max-width: 700px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.section h2 {
+  font-family: 'Cormorant Garamond';
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.section h3 {
+  margin-bottom: 10px;
+}
+
+.section p {
+  color: #aaa;
+  margin-bottom: 15px;
+}
+
+ul {
+  padding-left: 20px;
+  color: #ccc;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 60px;
+  color: #666;
+} 
