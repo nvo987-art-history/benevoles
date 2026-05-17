@@ -70,14 +70,32 @@ nav a:hover{
     color:#fff;
 }
 
-/* HERO TITLE (🔥 EZT KÉRTED) */
+/* HERO (🔥 JAVÍTVA) */
+.hero{
+    min-height:60vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    padding:140px 7% 60px;
+    text-align:center;
+}
+
+.hero-content{
+    max-width:800px;
+}
+
 .hero h1{
     font-family:'Cormorant Garamond', serif;
     font-size:clamp(2.8rem, 6vw, 4.5rem);
     color:#d4af37;
-    letter-spacing:0.04em;
-    text-align:center;
-    margin-bottom:40px;
+    letter-spacing:0.05em;
+    margin-bottom:20px;
+}
+
+.hero p{
+    color:#b5b5b5;
+    line-height:1.9;
+    font-size:1rem;
 }
 
 /* MAIN */
@@ -88,7 +106,6 @@ main{
     display:flex;
     flex-direction:column;
     gap:50px;
-    padding-top:120px;
     padding-bottom:80px;
 }
 
@@ -108,15 +125,14 @@ main{
     border-color:rgba(212,175,55,0.3);
 }
 
-/* SECTION TITLES */
+/* SECTION TITLE */
 .glass-card h2{
     font-family:'Cormorant Garamond', serif;
     font-size:2.6rem;
     margin-bottom:25px;
-    letter-spacing:0.02em;
 }
 
-/* 🔥 SÁRGA LABEL */
+/* LABEL */
 .principle-item span{
     display:block;
     color:#d4af37;
@@ -126,7 +142,7 @@ main{
     text-transform:uppercase;
 }
 
-/* CÍM */
+/* TITLE */
 .principle-item h3{
     font-size:1.45rem;
     font-weight:600;
@@ -134,22 +150,21 @@ main{
     margin-bottom:14px;
 }
 
-/* 🔥 SZÖVEG LEVEGŐSÍTÉS */
+/* 🔥 SZÖVEG LEVEGŐS */
 .principle-item p{
     color:#b5b5b5;
-    line-height:2.05;        /* EZ ADJA A LEVEGŐT */
+    line-height:2.05;
     font-size:1rem;
-    letter-spacing:0.01em;
 }
 
-/* ÁLTALÁNOS PARAGRAPH */
+/* ÁLTALÁNOS SZÖVEG */
 .glass-card p{
     line-height:2.05;
     font-size:1rem;
     color:#b5b5b5;
 }
 
-/* FOOTER (🔥 TELJESEN ÚJ DESIGN) */
+/* FOOTER (🔥 SZEBB) */
 footer{
     border-top:1px solid rgba(255,255,255,0.08);
     padding:80px 20px 50px;
@@ -162,7 +177,6 @@ footer{
     text-align:center;
 }
 
-/* LOGO */
 .footer-inner h3{
     font-family:'Cormorant Garamond', serif;
     color:#d4af37;
@@ -171,7 +185,6 @@ footer{
     letter-spacing:0.05em;
 }
 
-/* LINKS */
 .footer-links{
     display:flex;
     justify-content:center;
@@ -185,14 +198,12 @@ footer{
     text-decoration:none;
     font-size:0.9rem;
     transition:0.3s;
-    letter-spacing:0.03em;
 }
 
 .footer-links a:hover{
     color:#d4af37;
 }
 
-/* COPYRIGHT */
 footer p{
     color:#666;
     font-size:0.8rem;
@@ -203,8 +214,12 @@ footer p{
 /* MOBILE */
 @media(max-width:768px){
 
-    main{
-        gap:35px;
+    .hero{
+        padding:120px 20px 40px;
+    }
+
+    .hero h1{
+        font-size:2.4rem;
     }
 
     .glass-card{
@@ -215,10 +230,6 @@ footer p{
         font-size:2.1rem;
     }
 
-    .hero h1{
-        font-size:2.4rem;
-    }
-
     .principle-item h3{
         font-size:1.2rem;
     }
@@ -227,4 +238,4 @@ footer p{
         flex-direction:column;
         gap:12px;
     }
-}
+    }
