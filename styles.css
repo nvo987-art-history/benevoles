@@ -217,85 +217,7 @@ main{
     font-size:1rem;
 }
 
-/* PRINCIPLES */
-.principles-grid{
-    margin-top:42px;
-    display:grid;
-    grid-template-columns:repeat(auto-fit, minmax(230px, 1fr));
-    gap:24px;
-}
-
-.principle-item{
-    padding:32px;
-    border-radius:26px;
-    background:rgba(255,255,255,0.025);
-    border:1px solid rgba(255,255,255,0.06);
-    transition:0.35s ease;
-}
-
-.principle-item:hover{
-    transform:translateY(-5px);
-    border-color:rgba(212,175,55,0.24);
-    background:rgba(255,255,255,0.04);
-}
-
-.principle-item span{
-    color:#d4af37;
-    font-size:0.8rem;
-    letter-spacing:0.22em;
-}
-
-.principle-item h3{
-    margin:16px 0 12px;
-    font-size:1.35rem;
-    font-weight:600;
-}
-
-.principle-item p{
-    font-size:0.95rem;
-    line-height:1.75;
-    color:#b5b5b5;
-}
-
-/* SPECIFICATION */
-.specification-box{
-    margin-top:2rem;
-    padding:1.6rem;
-    border:1px solid rgba(255,255,255,0.08);
-    background:rgba(255,255,255,0.02);
-    border-radius:22px;
-}
-
-.spec-link{
-    display:inline-block;
-    margin-bottom:1.2rem;
-    color:#d4af37;
-    text-decoration:none;
-    font-size:0.95rem;
-    transition:opacity .25s ease;
-}
-
-.spec-link:hover{
-    opacity:.7;
-}
-
-.hash-label{
-    font-size:.72rem;
-    letter-spacing:.22em;
-    text-transform:uppercase;
-    opacity:.45;
-    margin-bottom:.7rem;
-}
-
-.hash-value{
-    display:block;
-    font-size:.82rem;
-    line-height:1.9;
-    word-break:break-all;
-    color:rgba(255,255,255,0.72);
-}
-
-/* FOOTER */
+/* FOOTER FIXED */
 footer{
     border-top:1px solid rgba(255,255,255,0.06);
     padding:80px 7%;
@@ -307,9 +229,9 @@ footer{
     margin:auto;
     display:flex;
     flex-direction:column;
-    gap:25px;
     align-items:center;
     text-align:center;
+    gap:25px;
 }
 
 .footer-inner h3{
@@ -318,16 +240,22 @@ footer{
     font-size:2rem;
 }
 
+/* 🔥 JAVÍTOTT LINKS */
 .footer-links{
     display:flex;
-    gap:30px;
     flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    gap:18px 30px;
+    max-width:600px;
 }
 
 .footer-links a{
     text-decoration:none;
     color:#bdbdbd;
+    font-size:0.95rem;
     transition:0.3s ease;
+    white-space:nowrap;
 }
 
 .footer-links a:hover{
@@ -336,66 +264,17 @@ footer{
 
 footer p{
     color:#727272;
-    font-size:0.88rem;
+    font-size:0.85rem;
     line-height:1.7;
+    margin-top:10px;
 }
 
-/* REVEAL */
-.reveal{
-    opacity:0;
-    transform:translateY(60px);
-    transition:1s ease;
-}
-
-.reveal.active{
-    opacity:1;
-    transform:translateY(0);
-}
-
-/* MOBILE */
+/* MOBILE FIX */
 @media(max-width:768px){
 
-    .navbar{
-        padding:22px 6%;
-    }
-
-    nav{
-        gap:18px;
-    }
-
-    nav a{
-        font-size:0.82rem;
-    }
-
-    .hero{
-        padding-top:150px;
-    }
-
-    .hero h1{
-        line-height:0.98;
-    }
-
-    .hero-buttons{
+    .footer-links{
         flex-direction:column;
-        align-items:flex-start;
+        gap:12px;
     }
 
-    .glass-card{
-        padding:38px 26px;
-        border-radius:28px;
-    }
-
-    .glass-card h2{
-        font-size:2.3rem;
-    }
-
-    .hero p,
-    .glass-card p{
-        font-size:0.98rem;
-    }
-
-    .principles-grid{
-        grid-template-columns:1fr;
-    }
-
-    }
+}
