@@ -1,0 +1,34 @@
+/* TEAM */
+
+Founder: Nicholas Van-Orton
+Project: NVO987
+Email: contact@nexarium.us
+
+/* SITE */
+
+Website:
+https://benevoles.nvo987.fr/
+
+Language:
+French
+
+Category:
+Cultural Association
+
+Focus:
+Volunteer Programs
+Visual Culture
+Art History
+Contemporary Art
+Cultural Research
+
+Technology:
+HTML5
+CSS3
+JavaScript
+Schema.org
+Open Graph
+XML
+
+Last Updated:
+2026-07-04
