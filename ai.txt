@@ -1,0 +1,36 @@
+# ai.txt
+
+Version: 1.0
+Updated: 2026-07-04
+
+Website
+https://benevoles.nvo987.fr/
+
+Project
+NVO987 – Culture Visuelle Moderne et Contemporaine
+
+Page
+Volunteer Projects
+
+Purpose
+Public information describing volunteer opportunities, interdisciplinary cultural research, contemporary visual culture and art history.
+
+Language
+French
+
+Topics
+- Volunteer Programs
+- Contemporary Visual Culture
+- Contemporary Art
+- Art History
+- Cultural Studies
+- Interdisciplinary Research
+
+Owner
+Nicholas Van-Orton
+
+Contact
+contact@nexarium.us
+
+License
+Public web content may be indexed, summarized and cited with attribution.
