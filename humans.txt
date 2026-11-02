@@ -1,34 +1,48 @@
 /* TEAM */
 
+Organization: NVO987 — Culture Visuelle Moderne et Contemporaine
 Founder: Nicholas Van-Orton
-Project: NVO987
-Email: contact@nexarium.us
+Website: https://nvo987.fr/
+Volunteer Website: https://benevoles.nvo987.fr/
+Contact: contact@nvo987.fr
+Location: Paris, France
 
-/* SITE */
+/* PROJECT */
 
-Website:
-https://benevoles.nvo987.fr/
+Project Name: NVO987 Bénévolat
+Purpose: Cultural collaboration and volunteer opportunities
+Primary Language: French
+Main Topics: Visual Culture, Art History, Contemporary Art,
+             Cultural Studies, Interdisciplinary Research
 
-Language:
-French
+/* TECHNOLOGY */
 
-Category:
-Cultural Association
-
-Focus:
-Volunteer Programs
-Visual Culture
-Art History
-Contemporary Art
-Cultural Research
-
-Technology:
 HTML5
 CSS3
 JavaScript
-Schema.org
+Schema.org JSON-LD
 Open Graph
-XML
+Responsive Web Design
+Intersection Observer API
 
-Last Updated:
-2026-07-04
+/* TYPOGRAPHY */
+
+Inter
+Playfair Display
+
+/* ACCESSIBILITY */
+
+Responsive layout
+Reduced-motion preference support
+Semantic HTML structure
+
+/* IDENTITY */
+
+DID Method: did:web
+DID: did:web:identity.nvo987.us
+Identity Authority: https://identity.nvo987.us/
+
+/* COPYRIGHT */
+
+Copyright © 2026 Nicholas Van-Orton / NVO987.
+All rights reserved unless otherwise stated.
