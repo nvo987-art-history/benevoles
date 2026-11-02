@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+
+  <channel>
+
+    <title>NVO987 — Projets bénévoles</title>
+
+    <link>https://benevoles.nvo987.fr/</link>
+
+    <description>
+      Projets bénévoles, culture visuelle moderne et contemporaine,
+      recherche artistique et collaboration culturelle.
+    </description>
+
+    <language>fr-fr</language>
+
+    <copyright>
+      Copyright 2026 NVO987. All rights reserved unless otherwise stated.
+    </copyright>
+
+    <managingEditor>contact@nvo987.fr (NVO987)</managingEditor>
+
+    <webMaster>contact@nvo987.fr (NVO987)</webMaster>
+
+    <category>Bénévolat</category>
+    <category>Culture visuelle</category>
+    <category>Recherche culturelle</category>
+
+    <atom:link
+      xmlns:atom="http://www.w3.org/2005/Atom"
+      href="https://benevoles.nvo987.fr/rss.xml"
+      rel="self"
+      type="application/rss+xml" />
+
+    <item>
+
+      <title>Recherche d'un pédagogue bénévole</title>
+
+      <link>https://benevoles.nvo987.fr/#volunteers</link>
+
+      <guid isPermaLink="true">
+        https://benevoles.nvo987.fr/#volunteers
+      </guid>
+
+      <description>
+        NVO987 présente une opportunité de collaboration bénévole
+        destinée à un pédagogue souhaitant contribuer à des activités
+        de recherche en culture visuelle contemporaine à Paris.
+        Cette activité est non rémunérée.
+      </description>
+
+      <pubDate>Sun, 01 Nov 2026 00:00:00 GMT</pubDate>
+
+      <category>Bénévolat</category>
+      <category>Pédagogie</category>
+      <category>Culture visuelle</category>
+
+    </item>
+
+  </channel>
+
+</rss>
