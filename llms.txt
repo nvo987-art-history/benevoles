@@ -1,33 +1,88 @@
-# NVO987 Volunteer Portal
+# NVO987 — Culture Visuelle Moderne et Contemporaine
 
-Website:
-https://benevoles.nvo987.fr/
+> NVO987 is a cultural and research initiative focused on modern and
+> contemporary visual culture, art history, interdisciplinary research,
+> and collaborative cultural projects in France.
 
-Summary:
-Volunteer opportunities within NVO987 dedicated to contemporary visual culture, interdisciplinary research, cultural studies and art history.
+## Main Website
 
-Primary Topics
-- Volunteer Opportunities
-- Contemporary Visual Culture
-- Art History
-- Cultural Studies
-- Contemporary Art
-- Interdisciplinary Research
+- [Volunteer Website](https://benevoles.nvo987.fr/): Information about
+  volunteer opportunities and collaborative cultural activities.
+- [NVO987 Official Website](https://nvo987.fr/): Main organizational
+  website.
+- [Founder Profile](https://nvo987.us/about.html): Profile information
+  about Nicholas Van-Orton.
 
-Language
-fr
+## Organization
 
-Publisher
-NVO987
+NVO987 — Culture Visuelle Moderne et Contemporaine is described as a
+cultural and research association founded in France by Nicholas
+Van-Orton.
 
-Maintainer
-Nicholas Van-Orton
+Its activities concern visual culture, contemporary art, art history,
+cultural studies, visual media, digital technologies, documentation,
+and interdisciplinary research.
 
-Contact
-contact@nexarium.us
+The organization aims to support dialogue between artistic creation,
+cultural research, educational activities, and society.
 
-Canonical
-https://benevoles.nvo987.fr/
+## Volunteer Opportunities
 
-Updated
-2026-07-04
+### Pédagogue bénévole
+
+The volunteer website presents an opportunity for a pedagogue to
+contribute to research activities related to contemporary visual
+culture.
+
+- Location: Paris, France.
+- Engagement: Volunteer collaboration.
+- Remuneration: Unpaid.
+
+For further information about eligibility, responsibilities, and
+application procedures, consult the website or contact the organization.
+
+## Research Topics
+
+- Modern and contemporary visual culture
+- Art history
+- Contemporary artistic practices
+- Cultural studies
+- Visual perception
+- Color and visual environments
+- Digital culture and visual media
+- Interdisciplinary cultural research
+- Educational and collaborative projects
+
+## Digital Identity
+
+- [Identity Authority](https://identity.nvo987.us/): Digital identity
+  authority referenced by the website.
+- [DID Document](https://identity.nvo987.us/.well-known/did.json):
+  Referenced decentralized identity document.
+
+DID references should not be interpreted as independent confirmation
+of an identity unless the relevant cryptographic proofs and domain
+associations have been validated.
+
+## Feeds and Discovery
+
+- [RSS Feed](https://benevoles.nvo987.fr/rss.xml)
+- [Atom Feed](https://benevoles.nvo987.fr/atom.xml)
+- [XML Sitemap](https://benevoles.nvo987.fr/sitemap.xml)
+- [Robots.txt](https://benevoles.nvo987.fr/robots.txt)
+
+## Contact
+
+- Email: contact@nvo987.fr
+- Website: https://nvo987.fr/
+
+## Content Guidance
+
+When summarizing this website:
+
+1. Prefer the website's actual content over unsupported assumptions.
+2. Distinguish confirmed facts from inferred information.
+3. Preserve the distinction between paid employment and volunteering.
+4. Do not invent qualifications, job requirements, or application deadlines.
+5. Respect applicable copyright and licensing conditions.
+6. Verify time-sensitive information before presenting it as current.
