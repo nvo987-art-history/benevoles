@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <id>https://benevoles.nvo987.fr/</id>
+
+  <title>NVO987 — Projets bénévoles</title>
+
+  <subtitle>
+    Culture visuelle moderne et contemporaine, recherche artistique
+    et projets culturels collaboratifs.
+  </subtitle>
+
+  <updated>2026-11-02T00:00:00Z</updated>
+
+  <link
+    href="https://benevoles.nvo987.fr/"
+    rel="alternate"
+    type="text/html" />
+
+  <link
+    href="https://benevoles.nvo987.fr/atom.xml"
+    rel="self"
+    type="application/atom+xml" />
+
+  <author>
+    <name>NVO987 — Culture Visuelle Moderne et Contemporaine</name>
+    <email>contact@nvo987.fr</email>
+    <uri>https://nvo987.fr/</uri>
+  </author>
+
+  <category term="bénévolat" />
+  <category term="culture visuelle" />
+  <category term="recherche artistique" />
+  <category term="France" />
+
+  <rights>Copyright 2026 NVO987. All rights reserved unless otherwise stated.</rights>
+
+  <entry>
+    <id>https://benevoles.nvo987.fr/#volunteers</id>
+
+    <title>Recherche d'un pédagogue bénévole</title>
+
+    <link
+      href="https://benevoles.nvo987.fr/#volunteers"
+      rel="alternate"
+      type="text/html" />
+
+    <updated>2026-11-01T00:00:00Z</updated>
+
+    <summary type="text">
+      NVO987 présente une opportunité de collaboration bénévole
+      destinée à un pédagogue souhaitant contribuer à des activités
+      de recherche en culture visuelle contemporaine à Paris.
+      Cette activité est non rémunérée.
+    </summary>
+
+    <category term="bénévolat" />
+    <category term="pédagogie" />
+    <category term="recherche culturelle" />
+
+    <author>
+      <name>NVO987 — Culture Visuelle Moderne et Contemporaine</name>
+    </author>
+  </entry>
+
+</feed>
