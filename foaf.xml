@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:org="http://www.w3.org/ns/org#">
+
+  <foaf:Organization rdf:about="https://nvo987.fr/#organization">
+
+    <foaf:name>NVO987 — Culture Visuelle Moderne et Contemporaine</foaf:name>
+
+    <foaf:homepage rdf:resource="https://nvo987.fr/" />
+
+    <foaf:page rdf:resource="https://benevoles.nvo987.fr/" />
+
+    <foaf:mbox rdf:resource="mailto:contact@nvo987.fr" />
+
+    <foaf:member>
+      <foaf:Person rdf:about="https://nvo987.us/#person">
+
+        <foaf:name>Nicholas Van-Orton</foaf:name>
+
+        <foaf:homepage rdf:resource="https://nvo987.us/" />
+
+        <foaf:workplaceHomepage rdf:resource="https://nvo987.fr/" />
+
+        <foaf:account>
+          <foaf:OnlineAccount>
+            <foaf:accountServiceHomepage
+                rdf:resource="https://orcid.org/" />
+            <foaf:accountName>0009-0007-4628-1871</foaf:accountName>
+          </foaf:OnlineAccount>
+        </foaf:account>
+
+      </foaf:Person>
+    </foaf:member>
+
+    <dc:description>
+      Association culturelle et de recherche consacrée à la culture
+      visuelle moderne et contemporaine, à l'histoire de l'art,
+      aux pratiques artistiques et aux études culturelles.
+    </dc:description>
+
+    <dc:language>fr</dc:language>
+
+    <dc:subject>Culture visuelle</dc:subject>
+    <dc:subject>Histoire de l'art</dc:subject>
+    <dc:subject>Art contemporain</dc:subject>
+    <dc:subject>Recherche interdisciplinaire</dc:subject>
+    <dc:subject>Études culturelles</dc:subject>
+
+    <org:hasSite>
+      <org:Site>
+        <org:siteAddress>
+          <rdf:Description>
+            <org:siteAddress rdf:resource="https://benevoles.nvo987.fr/" />
+          </rdf:Description>
+        </org:siteAddress>
+      </org:Site>
+    </org:hasSite>
+
+  </foaf:Organization>
+
+</rdf:RDF>
