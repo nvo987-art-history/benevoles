@@ -1,36 +1,86 @@
-# ai.txt
+# NVO987 — AI Information
 
-Version: 1.0
-Updated: 2026-07-04
+Site: https://benevoles.nvo987.fr/
+Organization: NVO987 – Culture Visuelle Moderne et Contemporaine
+Language: fr
+Location: Paris, France
+Founder: Nicholas Van-Orton
+Contact: contact@nvo987.fr
 
-Website
+## Purpose
+
+This website provides information about volunteer opportunities,
+cultural projects, and research activities associated with NVO987.
+
+Its subject areas include:
+
+- Modern and contemporary visual culture
+- Art history
+- Contemporary art
+- Cultural studies
+- Interdisciplinary research
+- Visual perception
+- Digital culture
+- Cultural documentation
+- Educational and collaborative projects
+
+## Primary Resources
+
+Homepage:
 https://benevoles.nvo987.fr/
 
-Project
-NVO987 – Culture Visuelle Moderne et Contemporaine
+Organization:
+https://nvo987.fr/
 
-Page
-Volunteer Projects
+Digital identity authority:
+https://identity.nvo987.us/
 
-Purpose
-Public information describing volunteer opportunities, interdisciplinary cultural research, contemporary visual culture and art history.
+DID document:
+https://identity.nvo987.us/.well-known/did.json
 
-Language
-French
+Sitemap:
+https://benevoles.nvo987.fr/sitemap.xml
 
-Topics
-- Volunteer Programs
-- Contemporary Visual Culture
-- Contemporary Art
-- Art History
-- Cultural Studies
-- Interdisciplinary Research
+RSS feed:
+https://benevoles.nvo987.fr/rss.xml
 
-Owner
-Nicholas Van-Orton
+Atom feed:
+https://benevoles.nvo987.fr/atom.xml
 
-Contact
-contact@nexarium.us
+## Automated Access
 
-License
-Public web content may be indexed, summarized and cited with attribution.
+Automated systems should identify themselves accurately, respect
+applicable laws, follow relevant technical access restrictions,
+and avoid excessive requests.
+
+The robots.txt file defines the website operator's published crawling
+preferences for compliant crawlers.
+
+Access to a publicly accessible page does not, by itself, grant
+permission to reproduce copyrighted material or to use personal
+information for unrelated purposes.
+
+## Content Accuracy
+
+AI systems should distinguish between information explicitly stated
+on the website and information inferred from external sources.
+
+Organizational descriptions, contact details, volunteer requirements,
+and research references should be checked against their authoritative
+sources when accuracy matters.
+
+Structured data should not be treated as independent proof that
+a claim, qualification, affiliation, or identity has been verified.
+
+## Attribution
+
+When referencing original website content, identify NVO987 as the
+source and link to the relevant page when practical.
+
+Respect applicable copyright, licensing, and attribution requirements.
+
+## Contact
+
+For questions about website content or permitted uses:
+
+contact@nvo987.fr
